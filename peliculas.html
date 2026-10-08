@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/peliculas.css">
 </head>
 <body>
+    
     <header>
 
         <nav>
@@ -16,14 +17,13 @@
                 <label for="" class="texto-genero">Genero</label>
                 <select name="pelicula" id="pelicula"> 
                     <option value="" class="genero">Seleccionar género</option>
-                    <option value="" class="genero">Comedia</option>
-                    <option value="" class="genro">Drama</option>
-                    <option value="" class="genero">Ciencia Ficción</option>
-                    <option value="" class="genro">Accion</option>
-                    <option value="" class="genro">Terror</option>
-                    <option value="" class="genro">Romance</option>
-                    <option value="" class="genro">Animación</option>
-                    <option value="" class="genro">Novela</option>
+                    <option value="Comedia" class="genero">Comedia</option>
+                    <option value="Drama" class="genero">Drama</option>
+                    <option value="Ciencia Ficción" class="genero">Ciencia Ficción</option>
+                    <option value="Accion" class="genero">Accion</option>
+                    <option value="Terror" class="genero">Terror</option>
+                    <option value="Romance" class="genero">Romance</option>
+                    <option value="Novela" class="genero">Novela</option>
                 </select>
             </div>
 
@@ -56,8 +56,8 @@
                 <section>
 
                     <table>
-                        <tbody>
-                            <tr>
+                        <tbody id="tabla-peliculas">
+                            <tr >
                                 <th>Inception</th>
                                 <th>Titanic</th>    
                                 <th>El Padrino</th>
@@ -133,9 +133,9 @@
                     </table>
                 </section>
             </div>
-            <div class="botones">
-                <button>Anterior</button>
-                <button>Siguiente</button>
+            <div id="botones">
+                <button class="boton-anterior">Anterior</button>
+                <button class="boton-siguiente">Siguiente</button>
             </div>
         </main>
 
@@ -165,5 +165,6 @@
         </footer>
 
     </header>
+    <script src="js/peliculas.js"></script>
 </body>
 </html>
