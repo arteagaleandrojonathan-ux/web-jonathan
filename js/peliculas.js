@@ -94,7 +94,7 @@ const generosPeliculas = {
 
 const peliculas = document.querySelectorAll('#tabla-peliculas th');
 const selecGenero = document.querySelector('#pelicula');
-
+x|
 selecGenero.addEventListener('change', function(){
 
     const generoSeleccionado = selecGenero.value;
